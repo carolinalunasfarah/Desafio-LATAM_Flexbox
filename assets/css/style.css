@@ -1,8 +1,10 @@
 * {
     font-family: "Open Sans", sans-serif;
     font-family: "Roboto", sans-serif;
-    border: solid 1px black;
     margin: 0;
+    padding: 0;
+    color: #1B1F21;
+    border: solid 1px black;
 }
 
 main {
@@ -10,30 +12,15 @@ main {
     justify-content: space-around;
 }
 
-.contacts {
-    text-align: start;
-    padding: 0;
-}
-
-.user {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-}
-
-.user_status {
-    display: flex;
-}
-
-.user_status img {
-    height: 5rem;
-    border-radius: 50%;
-}
+/* contacts section */
 
 menu{
     display: flex;
     justify-content: flex-start;
+    border-right: solid 0.1rem #BEC1BB;
 }
+
+/* user */
 
 .contacts {
     display: flex;
@@ -41,7 +28,69 @@ menu{
     flex-basis: 25%;
     align-items: center;
     min-height: 100vh;
+    padding: 0;
 }
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 1rem;
+}
+
+.user_status {
+    display: flex;
+}
+
+.user_status img {
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.user_info {
+    display: flex;
+    margin-left: 1rem;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.user_info  h2 {
+    font-size: 14px;
+    margin-bottom: 0.2rem;
+}
+
+.user_info p {
+    font-size: 10px;
+}
+
+.user_icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 30%;
+}
+
+/* new chat */
+.new_chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 10rem;
+    background-color: #A491D2;
+}
+
+.new_chat p {
+    color: #FFF;
+}
+
+.new_chat:hover {
+    background-color: #CDC3E6;
+
+}
+
+/* main section */
 
 .right_column {
     background-color: #E8EBE4;
