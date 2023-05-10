@@ -3,8 +3,8 @@
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
-    color: #1B1F21;
-    border: solid 1px black;
+    color: #1b1f21;
+    /* border: solid 1px black; */
 }
 
 main {
@@ -14,10 +14,11 @@ main {
 
 /* contacts section */
 
-menu{
+menu {
     display: flex;
     justify-content: flex-start;
-    border-right: solid 0.1rem #BEC1BB;
+    border-right: solid 0.1rem #bec1bb;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* user */
@@ -43,8 +44,12 @@ menu{
 }
 
 .user_status img {
-    height: 3rem;
+    height: 2.5rem;
     border-radius: 50%;
+}
+
+#maria_img {
+    height: 2rem;
 }
 
 .user_info {
@@ -55,13 +60,14 @@ menu{
     flex-direction: column;
 }
 
-.user_info  h2 {
+.user_info h2 {
     font-size: 14px;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.05rem;
 }
 
 .user_info p {
     font-size: 10px;
+    font-weight: 700;
 }
 
 .user_icons {
@@ -78,22 +84,26 @@ menu{
     align-items: center;
     height: 2rem;
     width: 10rem;
-    background-color: #A491D2;
+    background-color: #a491d2;
+    font-size: 14px;
 }
 
 .new_chat p {
-    color: #FFF;
+    color: #fff;
 }
 
 .new_chat:hover {
-    background-color: #CDC3E6;
+    background-color: #cdc3e6;
+}
 
+.new_chat:focus {
+    background-color: #d4dcff;
 }
 
 /* main section */
 
 .right_column {
-    background-color: #E8EBE4;
+    background-color: #e8ebe4;
     flex-basis: 75%;
 }
 
@@ -104,6 +114,17 @@ menu{
     flex-direction: column;
     text-align: center;
     min-height: 100vh;
+}
+
+.main_section h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    margin-top: 1rem;
+}
+
+.main_section p {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 0.3rem;
 }
 
 .main_section img {
