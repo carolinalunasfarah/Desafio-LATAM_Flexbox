@@ -37,7 +37,7 @@ menu {
 }
 
 .user:hover {
-    background-color: #e8ebe4;
+    background-color: #d4dcff;
 }
 
 .user_status {
@@ -105,7 +105,7 @@ menu {
     align-items: center;
     height: 2rem;
     width: 10rem;
-    margin: 1.5rem 0rem;
+    margin: 3rem 0rem;
     background-color: #a491d2;
 }
 
