@@ -26,26 +26,29 @@ menu {
 .contacts {
     display: flex;
     flex-direction: column;
-    flex-basis: 25%;
+    width: 25%;
     align-items: center;
-    min-height: 100vh;
-    padding: 0;
 }
 
 .user {
     display: flex;
-    justify-content: space-between;
-    width: 75%;
-    margin: 1rem;
+    width: 100%;
+    border-bottom: solid 0.1rem #bec1bb;
+}
+
+.user:hover {
+    background-color: #e8ebe4;
 }
 
 .user_status {
     display: flex;
+    padding: 1rem;
 }
 
 .user_status img {
     height: 2.5rem;
     border-radius: 50%;
+    border:solid 0.1rem #bec1bb;
 }
 
 #maria_img {
@@ -67,37 +70,54 @@ menu {
 
 .user_info p {
     font-size: 10px;
-    font-weight: 700;
+    color: #828485;
 }
 
 .user_icons {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-basis: 30%;
+    margin-left: 6rem;
+}
+
+.fa-regular {
+    padding-right: 0.7rem;
+    color: #bec1bb;
+}
+
+.fa-solid {
+    color: #bec1bb;
 }
 
 /* new chat */
+
+.button {
+    border-bottom: solid 0.1rem #bec1bb;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .new_chat {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 2rem;
     width: 10rem;
+    margin: 1.5rem 0rem;
     background-color: #a491d2;
-    font-size: 14px;
 }
 
 .new_chat p {
     color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
 }
 
 .new_chat:hover {
     background-color: #cdc3e6;
-}
-
-.new_chat:focus {
-    background-color: #d4dcff;
+    cursor: crosshair;
 }
 
 /* main section */
@@ -105,6 +125,7 @@ menu {
 .right_column {
     background-color: #e8ebe4;
     flex-basis: 75%;
+    min-height: 100vh;
 }
 
 .main_section {
