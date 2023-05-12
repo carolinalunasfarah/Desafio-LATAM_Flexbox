@@ -38,6 +38,7 @@ menu {
 
 .user:hover {
     background-color: #d4dcff;
+    cursor:text;
 }
 
 .user_status {
@@ -53,6 +54,11 @@ menu {
 
 #maria_img {
     height: 2rem;
+}
+
+#maria:hover {
+    background-color: #a591d26b;
+    cursor: pointer;
 }
 
 .user_info {
