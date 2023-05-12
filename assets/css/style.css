@@ -1,15 +1,11 @@
 * {
-    font-family: "Open Sans", sans-serif;
-    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
     color: #1b1f21;
-    /* border: solid 1px black; */
 }
 
 main {
     display: flex;
-    justify-content: space-around;
 }
 
 /* contacts section */
@@ -21,13 +17,12 @@ menu {
     font-family: "Open Sans", sans-serif;
 }
 
-/* user */
+/* user, contacts */
 
 .contacts {
     display: flex;
     flex-direction: column;
     width: 25%;
-    align-items: center;
 }
 
 .user {
@@ -38,7 +33,7 @@ menu {
 
 .user:hover {
     background-color: #d4dcff;
-    cursor:text;
+    cursor: text;
 }
 
 .user_status {
@@ -82,8 +77,7 @@ menu {
 .user_icons {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-left: 6rem;
+    margin-left: 5.5rem;
 }
 
 .fa-regular {
@@ -147,11 +141,13 @@ menu {
     font-family: "Roboto", sans-serif;
     font-size: 45px;
     margin-top: 1rem;
+    color: #1B1F21;
 }
 
 .main_section p {
     font-family: "Open Sans", sans-serif;
     margin-top: 0.3rem;
+    color: #444749;
 }
 
 .main_section img {
